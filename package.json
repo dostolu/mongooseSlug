@@ -1,0 +1,31 @@
+{
+  "name": "@dostolu/mongooseSlug",
+  "version": "1.0.0",
+  "description": "Mongoose slug plugin",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run test:app && npm run test:eslint",
+    "test:eslint": "eslint .",
+    "test:app": "jasmine-node --verbose tests/index.spec.js",
+    "postpublish": "greenkeeper-postpublish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dostolu/mongooseSlug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/dostolu/mongooseSlug#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.1.0",
+    "eslint-config-airbnb-base": "^8.0.0",
+    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "greenkeeper-postpublish": "^1.0.1",
+    "jasmine-node": "^1.14.5"
+  },
+  "dependencies": {
+    "slug": "^0.9.1"
+  }
+}
