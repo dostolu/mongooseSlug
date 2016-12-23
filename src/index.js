@@ -22,7 +22,9 @@ module.exports = opts => schema => {
   /* eslint func-names: 0 */
   schema.pre('validate', function (next) {
     const doc = this;
-    doc.set(options.to, slug(doc.get(options.from)).toLowerCase());
+    if (!(doc.get(options.to) && doc.get(options.to).length > 0)) {
+      doc.set(options.to, slug(doc.get(options.from)).toLowerCase());
+    }
     next();
   });
 };

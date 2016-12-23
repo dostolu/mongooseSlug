@@ -1,6 +1,6 @@
 {
   "name": "@dostolu/mongooseSlug",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mongoose slug plugin",
   "main": "src/index.js",
   "scripts": {
@@ -8,6 +8,9 @@
     "test:eslint": "eslint .",
     "test:app": "mocha tests/index.spec.js",
     "postpublish": "greenkeeper-postpublish"
+  },
+  "engines": {
+    "node": ">= 6.9.2"
   },
   "repository": {
     "type": "git",
