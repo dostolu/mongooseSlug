@@ -22,7 +22,7 @@
   "license": "ISC",
   "homepage": "https://github.com/dostolu/mongooseSlug#readme",
   "devDependencies": {
-    "chai": "^3.5.0",
+    "chai": "^4.0.0",
     "eslint": "^3.8.0",
     "eslint-config-airbnb-base": "^11.0.0",
     "eslint-plugin-import": "^2.0.1",
