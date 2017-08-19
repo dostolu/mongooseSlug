@@ -27,11 +27,11 @@
     "eslint-config-airbnb-base": "^11.0.0",
     "eslint-plugin-import": "^2.0.1",
     "greenkeeper-postpublish": "^1.0.1",
-    "mocha": "^3.4.1",
-    "snyk": "^1.31.0"
+    "mocha": "^3.4.1"
   },
   "dependencies": {
-    "slug": "^0.9.1"
+    "slug": "^0.9.1",
+    "snyk": "^1.39.0"
   },
   "snyk": true
 }
